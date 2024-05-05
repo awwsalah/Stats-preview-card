@@ -50,7 +50,18 @@ body{
     width: 540px;
     height: 446px;
     align-items: flex-end;
+
+    background-image: url(images/image-header-desktop.jpg);
     
+    
+    
+}
+.card-color{
+    width: 100%;
+    height: 446px;
+    background-color: hsl(277, 64%, 61%);;
+    mix-blend-mode:multiply;
+
 }
 .title{
     width: 403px;
@@ -60,15 +71,7 @@ body{
     color: white;
     
 }
-.card-color{
-    position:absolute;
-    width: 540px;
-    height: 446px;
-    background-color: hsl(277, 64%, 61%);
-    top: 142px;
-    left: 100;
-    mix-blend-mode: multiply;
-}
+
 h1{
     
     font-size: 36px;
